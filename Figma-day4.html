@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(252, 214, 220);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .client-heading {
+       
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+        /* flex-wrap: wrap; */
+      }
+
+      .client-heading span {
+        width: 40px;
+        border: 1px solid #ff5300;
+      }
+
+      /* .client-heading h6 {
+        width: 126px;
+        height: 24px;
+        flex-basis: 20%;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #ff5300;
+      } */
+ 
+      h2 {
+        /* width: 462px;
+        height: 59px; */
+text-align: center;
+
+        font-size: 39.06px;
+        font-weight: 600;
+        line-height: 58.59px;
+        color: #5e5e5e;
+      } 
+
+      .bottom {
+        display: flex;
+        align-items: center;
+      }
+      .left-arrow {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #373737;
+      }
+      .right-arrow {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #ff5300;
+      }
+
+      .client-cards {
+        width: 1170px;
+        height: 271px;
+        padding: 40px 40px;
+
+        display: flex;
+        justify-content: center;
+        column-gap: 35px;
+      }
+
+      .cards {
+        width: 370px;
+        height: 270px;
+        background: #ffffff;
+        box-shadow: 0px 1px 4px 2px #0000001a;
+        border-radius: 10px;
+      }
+      .cards img {
+        width: 162px;
+        height: 26px;
+        margin: 20px 10px 2px 18px;
+      }
+      .cards p {
+        width: 320px;
+        height: 100px;
+        margin: 18px;
+        color: #7b7b7b;
+
+        font-size: 16px;
+        font-weight: 550;
+        line-height: 24px;
+      }
+      /* cards ka ceo */
+      .ceo {
+        width: 350px;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+      }
+      .ceo img {
+        width: 60px;
+        height: 60px;
+        margin: 18px;
+      }
+      .ceo h5 {
+        width: 116px;
+        height: 30px;
+
+        font-size: 20px;
+        font-weight: 500;
+        color: orangered;
+      }
+      .ceo h6 {
+        width: 106px;
+        height: 20px;
+
+        color: #7b7b7b;
+        font-size: 12.8px;
+        font-weight: 300;
+      }
+      .double-comma {
+        width: 60px;
+        height: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="our-client">
+      <div class="client-heading">
+        <!-- Top portion -->
+        <span></span>
+        <h6>Our Testimonial</h6>
+        <span></span>
+
+      </div>
+      <h2>What Our Client Saying</h2>
+
+      <div class="bottom">
+        <img
+          class="left-arrow"
+          src="../Figma_img.html/arrow-left-s-line.jpg"
+          alt="left arrow"
+        />
+        <!-- bottom portion -->
+        <div class="client-cards">
+          <div class="cards">
+            <img src="./Figma_img.html/star.png" alt="star" />
+            <p>
+              Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices
+              blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.
+            </p>
+            <div class="ceo">
+              <img src="./Figma_img.html/ceo.png" alt="" />
+              <h5>Phillip Levin</h5>
+              <h6>CEO / Creative IT</h6>
+              <img src="./Figma_img.html/double-comma.png" alt="doube comma" />
+            </div>
+          </div>
+
+          <div class="cards">
+            <img src="./Figma_img.html/star.png" alt="star" />
+            <p>
+              Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices
+              blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.
+            </p>
+            <div class="ceo">
+              <img src="./Figma_img.html/ceo.png" alt="" />
+              <h5>Phillip Levin</h5>
+              <h6>CEO / Creative IT</h6>
+              <img
+                class="double-comma"
+                src="./Figma_img.html/double-comma.png"
+                alt="doube comma"
+              />
+            </div>
+          </div>
+
+          <div class="cards">
+            <img src="./Figma_img.html/star.png" alt="star" />
+            <p>
+              Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices
+              blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.
+            </p>
+
+
+            <div class="ceo">
+              <img src="./Figma_img.html/ceo.png" alt="comma" />
+              <h5>Phillip Levin</h5>
+              <h6>CEO / Creative IT</h6>
+              <img src="./Figma_img.html/double-comma.png" alt="doube comma" />
+            </div>
+          </div>
+        </div>
+        <img
+          class="right-arrow"
+          src="./Figma_img.html/arrow-right-s-line.jpg"
+          alt="left arrow"
+        />
+      </div>
+    </div>
+  </body>
+</html>

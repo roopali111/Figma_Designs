@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Designs</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        height: 100%;
+        background-color: pink;
+      }
+
+      .card {
+        display: flex;
+        /* flex: wrap; */
+        flex-direction: column;
+background-color: white;
+        width: 375px;
+        height: 812px;
+        border-radius: 10px;
+        margin: 30px;
+      }
+      .statusbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 375px;
+        height: 44px;
+        margin-top: 10px;
+      }
+      .signals {
+        color: #223263;
+      }
+
+      .arrow {
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 5px;
+      }
+      .arrow h4 {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 100px;
+        color: #223263;
+        width: 248px;
+        height: 24px;
+        margin-bottom: 18px;
+      }
+      .arrow img {
+        width: 24px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      .shoe img {
+        width: 379px;
+        height: 238px;
+      }
+
+      .heartsec {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+      }
+
+      .heartsec img {
+        width: 24px;
+        height: 24px;
+        flex-basis: 5%;
+        margin-bottom: 8px;
+        padding: 7.94px 2.96px 3.94px 2.96px;
+      }
+      .heartsec h3 {
+        width: 275px;
+        height: 60px;
+        flex-basis: 60%;
+        color: #223263;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin-top: 3px;
+      }
+      .star {
+        width: 96px;
+        height: 16px;
+
+      }
+
+      .dollar {
+        width: 84px;
+        height: 25px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #40bfff;
+        margin-top: 10px;
+      }
+      .selectsize {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .selectsize p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border: 1px solid #ebf0ff;
+        border-radius: 50%;
+        background: #ffffff;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #223263;
+        margin: 7px 6px;
+      }
+
+      .selectsize h5 {
+        width: 85px;
+        height: 21px;
+        flex-basis: 100%;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #223263;
+        margin: 7px 7px;
+      }
+
+      /* .selectsize img{
+ width: Hug (368px)px;
+height: Hug (48px)px;
+margin-top: 8px;
+
+ } */
+
+      /* .selectcolor {
+        flex-wrap: wrap;
+        flex-flow: column;
+      } */
+      /* .selectcolor img {
+        width: Hug (368px) px;
+        height: Hug (48px) px;
+        margin-top: 8px;
+      } */
+
+      .selectcolor h5 {
+        width: 91px;
+        height: 21px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #223263;
+        margin: 7px 7px;
+        flex-basis: 100%;
+      }
+      .selectcolor {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .selectcolor p {
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        display: flex;
+        margin: 7px 7px;
+      }
+
+      button {
+        width: Hug (343px) px;
+        height: Hug (53px) px;
+        font-weight: 1000;
+        text-align: center;
+        padding: 16px;
+        gap: 10px;
+        border-radius: 5px 0px 0px 0px;
+        opacity: 0px;
+        background: #40bfff;
+        color: white;
+        border: none;
+        box-shadow: 0px 10px 30px 0px #40bfff3d;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- part1 -->
+
+      <div class="card">
+        <div class="statusbar">
+          <img src="../Figma_img.html/Time Style.jpg" alt="" class="time" />
+
+          <div class="signals">
+            <img src="../Figma_img.html/Wifi.jpg" alt="time" class="signal" />
+            <img
+              src="../Figma_img.html/Mobile Signal.jpg"
+              alt="signal"
+              class="wifi"
+            />
+            <img
+              src="../Figma_img.html/Battery.png"
+              alt="battery"
+              class="battery"
+            />
+          </div>
+        </div>
+
+        <div class="arrow">
+          <img src="../Figma_img.html/Left.jpg" alt="left arrow" />
+          <h4>Nike Air Jordon</h4>
+
+          <img src="../Figma_img.html/More.jpg" alt="3 dots" class="dots" />
+        </div>
+
+        <!-- part2 -->
+        <div class="shoe img">
+          <img
+            src="../Figma_img.html/kris-gerhard-0BKZfcamvGg-unsplash 1.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="heartsec">
+          <h3>Nike Air Jordon - React ENG</h3>
+          <img
+            class="heart"
+            src="../Figma_img.html/Add Favorite Icon.png"
+            alt=""
+          />
+        </div>
+
+        <img class="star" src="../Figma_img.html/Star Rating.png" alt="" />
+
+        <h3 class="dollar">$299,43</h3>
+
+        <!-- part3 -->
+        <div class="selectsize">
+          <h5>Select Size</h5>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <p>10</p>
+          <p>11</p>
+
+          <!-- <img  src="../Figma_img.html/6.png" alt="" />
+          <img  src="../Figma_img.html/6.5.png" alt="" />
+
+          <img  src="../Figma_img.html/7.5.png" alt="" />
+          <img  src="../Figma_img.html/8.png" alt="" />
+          <img  src="../Figma_img.html/7.png" alt="" />
+
+          <img  src="../Figma_img.html/8.5.png" alt="" /> -->
+        </div>
+
+        <!-- part4 -->
+
+        <div class="selectcolor">
+          <h5>Select Color</h5>
+          <p style="background-color: red"></p>
+          <p style="background-color: blue"></p>
+          <p style="background-color: gold"></p>
+          <p style="background-color: greenyellow"></p>
+          <p style="background-color: purple"></p>
+          <p style="background-color: navy"></p>
+
+          <!-- <img src="../Figma_img.html/Group 475.png" alt="" />
+          <img src="../Figma_img.html/Blue.png" alt="" />
+
+          <img src="../Figma_img.html/red.png" alt="" />
+          <img src="../Figma_img.html/green.png" alt="" />
+          <img src="../Figma_img.html/purple.png" alt="" />
+
+          <img src="../Figma_img.html/dark.png" alt="" /> -->
+        </div>
+
+        <button>Add To Cart</button>
+        <img src="../Figma_img.html/Home Indicator.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
